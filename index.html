@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bass Ledger | Transcriptions</title>
+    <meta
+      name="description"
+      content="A modern, responsive index of bass guitar and double bass transcription PDFs."
+    />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <script src="./scripts/app.js" defer></script>
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__overlay"></div>
+      <div class="container hero__content">
+        <p class="eyebrow">Bass Ledger</p>
+        <h1>Bass Guitar + Double Bass Transcriptions</h1>
+        <p class="hero__lede">
+          Browse, search, and open transcription PDFs from a curated catalog.
+          New transcriptions are added in code only.
+        </p>
+        <a class="button" href="#catalog">Browse Transcriptions</a>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="panel panel--info">
+        <h2>Code-managed catalog</h2>
+        <p>
+          This site is static and deployable to GitHub Pages. PDF uploads are
+          intentionally disabled in the UI. Add files to
+          <code>transcriptions/</code> and update
+          <code>data/transcriptions.json</code>.
+        </p>
+      </section>
+
+      <section id="catalog" class="panel">
+        <div class="catalog__head">
+          <h2>Transcription Index</h2>
+          <p id="resultsSummary" class="results-summary"></p>
+        </div>
+
+        <form class="controls" onsubmit="return false;" aria-label="Catalog filters">
+          <label class="control">
+            <span>Search</span>
+            <input
+              id="searchInput"
+              type="search"
+              placeholder="Title, artist, tags..."
+              autocomplete="off"
+            />
+          </label>
+
+          <label class="control">
+            <span>Instrument</span>
+            <select id="instrumentFilter">
+              <option value="all">All instruments</option>
+              <option value="bass-guitar">Bass guitar</option>
+              <option value="double-bass">Double bass</option>
+            </select>
+          </label>
+
+          <label class="control">
+            <span>Sort</span>
+            <select id="sortBy">
+              <option value="updated-desc">Recently updated</option>
+              <option value="updated-asc">Oldest updated</option>
+              <option value="title-asc">Title A-Z</option>
+              <option value="title-desc">Title Z-A</option>
+            </select>
+          </label>
+        </form>
+
+        <div id="tagFilters" class="tags" aria-label="Tag filters"></div>
+
+        <div id="statusMessage" class="status-message" role="status"></div>
+        <ul id="transcriptionList" class="cards" aria-live="polite"></ul>
+      </section>
+    </main>
+
+    <footer class="container footer">
+      <p>
+        Stock imagery sourced from
+        <a
+          href="https://unsplash.com/photos/0t5wMsv1Zco"
+          target="_blank"
+          rel="noreferrer noopener"
+          >Unsplash</a
+        >
+        and
+        <a
+          href="https://www.pexels.com/photo/wooden-double-bass-beside-wall-164936/"
+          target="_blank"
+          rel="noreferrer noopener"
+          >Pexels</a
+        >.
+      </p>
+    </footer>
+  </body>
+</html>
