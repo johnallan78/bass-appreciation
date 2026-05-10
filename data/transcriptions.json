@@ -1,3 +1,14 @@
 {
-  "transcriptions": []
+  "transcriptions": [
+    {
+      "id": "space-cowboy-jamiroquai",
+      "title": "Return of the Space Cowboy",
+      "instrument": "bass-guitar",
+      "composerOrArtist": "Jamiroquai",
+      "difficulty": "intermediate",
+      "tags": ["funk", "16th-notes"],
+      "pdfPath": "transcriptions/space-cowboy-jamiroquai-example1.pdf",
+      "updatedAt": "2026-05-10"
+    }
+  ]
 }
