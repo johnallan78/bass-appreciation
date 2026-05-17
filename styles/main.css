@@ -47,7 +47,7 @@ a {
   align-items: end;
   background:
     linear-gradient(125deg, rgba(7, 11, 20, 0.9), rgba(7, 11, 20, 0.48)),
-    url("https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=1500&q=80")
+    url("https://images.pexels.com/photos/96380/pexels-photo-96380.jpeg?auto=format&fit=crop&w=1500&q=80")
       center/cover no-repeat;
   border-bottom: 1px solid rgba(115, 180, 255, 0.25);
 }
@@ -220,7 +220,7 @@ select:focus {
   padding: 0.8rem;
   background:
     linear-gradient(170deg, rgba(23, 36, 63, 0.62), rgba(12, 18, 31, 0.88)),
-    url("https://images.pexels.com/photos/164936/pexels-photo-164936.jpeg?auto=compress&fit=crop&w=1200&q=80")
+    url("https://images.pexels.com/photos/10950838/pexels-photo-10950838.jpeg?auto=compress&fit=crop&w=1200&q=80")
       center/cover no-repeat;
   background-blend-mode: soft-light;
   display: grid;
