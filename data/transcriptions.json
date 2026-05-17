@@ -9,6 +9,46 @@
       "tags": ["funk", "16th-notes"],
       "pdfPath": "transcriptions/space-cowboy-jamiroquai-example1.pdf",
       "updatedAt": "2026-05-10"
+    },
+    {
+      "id": "sandstorm-level42-ex-1",
+      "title": "Sandstorm Ex. 1",
+      "instrument": "bass-guitar",
+      "composerOrArtist": "Level 42",
+      "difficulty": "advanced",
+      "tags": ["funk", "16th-notes", "slap bass", "mark king"],
+      "pdfPath": "transcriptions/sandstorm-level42-example1.pdf",
+      "updatedAt": "2026-05-17"
+    },
+    {
+      "id": "sandstorm-level42-ex-2",
+      "title": "Sandstorm Ex. 2",
+      "instrument": "bass-guitar",
+      "composerOrArtist": "Level 42",
+      "difficulty": "advanced",
+      "tags": ["funk", "16th-notes", "slap bass", "mark king"],
+      "pdfPath": "transcriptions/sandstorm-level42-example2.pdf",
+      "updatedAt": "2026-05-17"
+    },
+    {
+      "id": "sandstorm-level42-ex-3",
+      "title": "Sandstorm Ex. 3",
+      "instrument": "bass-guitar",
+      "composerOrArtist": "Level 42",
+      "difficulty": "advanced",
+      "tags": ["funk", "16th-notes", "slap bass", "mark king"],
+      "pdfPath": "transcriptions/sandstorm-level42-example3.pdf",
+      "updatedAt": "2026-05-17"
+    },
+    {
+      "id": "sandstorm-level42-ex-4",
+      "title": "Sandstorm Ex. 4",
+      "instrument": "bass-guitar",
+      "composerOrArtist": "Level 42",
+      "difficulty": "advanced",
+      "tags": ["funk", "16th-notes", "slap bass", "mark king"],
+      "pdfPath": "transcriptions/sandstorm-level42-example4.pdf",
+      "updatedAt": "2026-05-17"
     }
   ]
 }
